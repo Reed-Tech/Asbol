@@ -172,7 +172,8 @@ ul
           transition: all .3s ease-in-out;
 }
 
-.single-img .opacity ul, ,.single-img .opacity h6 a {
+.single-img .opacity ul,
+.single-img .opacity h6 a {
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
      -ms-transition: all .4s ease-in-out;
@@ -315,6 +316,12 @@ ul
     padding-top: 40px;
     height: 80%;
     /* background: violet; */
+  }
+
+  @media(max-width : 500px) {
+    .goals .grid-container {
+        grid-template-columns: auto auto;
+      }
   }
   
 .goals .grid-container > div {
