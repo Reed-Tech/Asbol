@@ -55,7 +55,7 @@
            margin: 30,
            stagePadding: 0,
            nav: true,
-           navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-left" aria-hidden="true"></i>'],
+           navText: ['<i class="fa fa-arrow-left"></i>', '<i class="fa fa-arrow-left"></i>'],
            responsive:{
                0:{
                    items: 1

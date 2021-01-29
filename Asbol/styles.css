@@ -144,11 +144,12 @@ ul
 .section-title {
     color: #213D2D;
     font-weight: bolder;
+    text-transform: uppercase;
 }
 
-.section-title span {
+.section-title h3 {
     font-size: 27px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .dot {
@@ -364,9 +365,15 @@ ul
     -o-transition: .3s all ease-in-out;
     transition: .3s all ease-in-out;
     text-align: center;
-    padding: 20px 0;
-    font-size: 15px;
+    padding: 2rem 1rem;
+    /* font-size: 10px; */
     font-weight: bold;
+}
+
+@media(max-width: 500px) {
+    .goals .grid-container > div {
+        padding: .9rem .4rem;
+    }
 }
 
 .goals .grid-container > div h5 {
@@ -394,7 +401,7 @@ ul
 .address-book {
     margin-top: 20px;
     text-align: center;
-    /* font-size: 15px; */
+    font-size: 15px;
 }
 
 .address-book h3 {
@@ -445,19 +452,10 @@ ul
   margin: 1rem;
 }
 
-.wwd-slider .owl-dots {
-  text-align: center; 
-}
 
-.wwd-slider .owl-dots .owl-dot{
-    display: inline-block; 
-    margin-top: 40px;
-    margin-bottom: -50px;
-}
-
-.wwd-slider .owl-dots .owl-dot > span {
+.owl-theme .owl-pagination .owl-page > span {
   margin: 7px;
-  background: #FF9800;
+  background: #213D2D;
   opacity: 0.4;
   display: inline-block;
   width: 15px;
@@ -466,18 +464,6 @@ ul
 
 }
 
-.wwd-slider .owl-dots .owl-dot:hover > span {
-  background: #FF9800; 
-}
-
-.wwd-slider .owl-dots .owl-dot.active > span {
-  background: #FF9800; 
-  opacity: 1.0;
-  border-radius: 30px !important;
-  -webkit-transition: 0.5s all ease-in-out !important;
-  -o-transition: 0.5s all ease-in-out !important;
-  transition: 0.5s all ease-in-out !important;
-}
 
 /* footer */
 .site-footer {
@@ -519,26 +505,3 @@ ul
     color: #fff; 
 }
 
-
-
-
-/* .logo a
-{
-	font-size: 30px;
-	font-weight: 700;
-	color: #1b1b1b;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.header.scrolled .logo a
-{
-	font-size: 24px;
-} */
-
-
-/*********************************
- Home
-*********************************/
