@@ -145,6 +145,7 @@ ul
     color: #213D2D;
     font-weight: bolder;
     text-transform: uppercase;
+    position: relative;
 }
 
 .section-title h3 {
@@ -152,14 +153,33 @@ ul
     margin-bottom: 25px;
 }
 
-.dot {
-    width: 10px;
+.section-title.text-center:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
     height: 10px;
-    margin: 5px;
+    background: #213D2D;
+    width: 10px;
     border-radius: 50%;
-    background: purple;
-    position: relative; 
+     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+     margin-top: 25px;
+     top: 30%;
+    
 }
+
+
+
+.section-title.text-center:after {
+    background: #213D2D; 
+}
+
+.position-relative {
+  position: relative; }
+
 
 .about-section.text {
     text-align: center;
