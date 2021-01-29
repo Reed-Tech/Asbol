@@ -18,14 +18,14 @@ body
 	color: #000000;
 }
 
-div
+/* div
 {
 	display: block;
 	position: relative;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
+} */
 
 a {
     color: inherit;
@@ -40,6 +40,33 @@ ul
 
 .logo {
     width: 58px;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+.navbar-toggler{
+    justify-content: center;
+    text-align: center;
+    float: right;
+    position: relative;
+    left: 45%;
+    right: 50%;
+
+}
+
+.navbar-collapse {
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+@media(min-width: 991px) {
+    .navbar-brand {
+        display: block;
+    }
 }
 
 .text-slant {
@@ -146,8 +173,18 @@ ul
     grid-gap: 2px;
     padding: 10px;
     padding-top: 40px;
-  }
-  
+}
+
+@media(max-width:500px) {
+.port .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2px;
+    padding: 10px;
+    padding-top: 40px;
+}
+}
+
 .port .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
@@ -317,12 +354,6 @@ ul
     height: 80%;
     /* background: violet; */
   }
-
-  @media(max-width : 500px) {
-    .goals .grid-container {
-        grid-template-columns: auto auto;
-      }
-  }
   
 .goals .grid-container > div {
     position: relative;
@@ -396,7 +427,7 @@ ul
 .wwd-slider_inner {
   position: relative;
   z-index: 1;
-  box-shadow: 0 8px 8px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 8px 5px rgba(0, 0, 0, 0.05);
  text-align: center;
   padding: 25px 10px;
   margin-bottom: 10px; 
