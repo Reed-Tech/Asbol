@@ -511,17 +511,17 @@ ul
 .wwd-slider_inner {
   position: relative;
   z-index: 1;
-  box-shadow: 0 4px 4px 4px rgba(54, 39, 39, 0.05);
+  /* box-shadow: 0 6px 4px 4px rgba(54, 39, 39, 0.05); */
   text-align: center;
   /* padding: 25px 10px; */
   padding: 35px;
   margin-bottom: 10px; 
   color: #000000;
-  background: #fff;
   border: 1px #ccc;
   border-radius: 25px;
-  -webkit-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.1);
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in;
   transition: .3s all ease-in;
